@@ -9,7 +9,7 @@ const Header = () => {
     <div className="header  flex item-center justify-between max-w-6xl mx-auto py-3   ">
       <div className="left flex gap-4 ">
 <Menuitem title="Home" address="/" ></Menuitem>
-<Menuitem title="About" address="/" />
+<Menuitem title="About" address="/about" />
       </div>
       <div className="right flex gap-4 items-center justify-center ">
         <DarkMode></DarkMode>
