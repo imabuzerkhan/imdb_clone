@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Menuitem from './Menuitem'
+import DarkMode from './DarkMode'
 
 const Header = () => {
   return (
@@ -10,8 +11,9 @@ const Header = () => {
 <Menuitem title="Home" address="/" ></Menuitem>
 <Menuitem title="About" address="/" />
       </div>
-      <div className="right">
-<span className='text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg  ' >IMDB</span>
+      <div className="right flex gap-4 items-center justify-center ">
+        <DarkMode></DarkMode>
+<span className='text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg cursor-pointer ' >IMDB</span>
       </div>
     </div>
   )
